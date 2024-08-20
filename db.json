@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "tarefa": "Estudar Angular",
+      "categoria": "Estudos",
+      "concluido": true
+    },
+    {
+      "id": "2",
+      "tarefa": "World Of Warcraft - Crônica - Vol. 1",
+      "categoria": "Leitura",
+      "concluido": false
+    }
+  ]
+}
