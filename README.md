@@ -1,27 +1,58 @@
 # ListaDeTarefasAngular
 
+This is a simple task list application developed in Angular 18. It allows you to create, list, and delete tasks. </br>
+The application is ideal for understanding the basic functionality of an application using Angular.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* **Create Task:** Add new tasks to the list.
+* **List Tasks:** View all registered tasks.
+* **Delete Task:** Remove a task from the list.
 
-## Code scaffolding
+## How to run the project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone repository:**
 
-## Build
+```bash
+git clone git@github.com:Phyllipesa/lista-De-Tarefas-Angular-basic.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Go to the project's directory:**
 
-## Running unit tests
+```bash
+cd lista-De-Tarefas-Angular-basic
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Install dependencies:**
 
-## Running end-to-end tests
+```bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Run DB server:**
 
-## Further help
+```bash
+npx json-server db.json
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+4. **Run application:**
+
+```bash
+npm run start
+```
+
+5. Access application at: `http://localhost:4200`
+
+6. Access DB server at: `http://localhost:3000/tasks`
+
+## Tecnologies
+
+ ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) </br>
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+
+## Autor
+
+* [@CrislaineLuana](https://github.com/CrislaineLuana) - Desenvolvimento do projeto
